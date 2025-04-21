@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Aluno</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/cadastro.css" rel="stylesheet">
+<body>
+    <a href="./index.html" class="back-to-index"> <h1> Gerenciador de Alunos Simples (GAS)</h1> </a>
+    <section class="menu">
+
+        <div class="div-voltar">  <button class="voltar-btn">Voltar</button> </div>
+
+        <h3>Cadastrar novo aluno </h3>
+        <form class="form-aluno">
+            <input type="text" class="aluno-nome" placeholder="Nome" required><br>
+            <input type="number" class="aluno-ra" placeholder="RA" required><br>
+            <input type="number" class="aluno-idade" Placeholder="Idade" required><br>
+            <input type="number" class="aluno-media" placeholder="Média" required><br>
+            <div>
+                Sexo:
+                <input type="checkbox" class="sexo-m" required>
+                <label for="sexo-m">Masculino</label>
+                <input type="checkbox" class="sexo-f"/>
+                <label for="sexo-f">Feminino</label>
+            </div>
+            <button type="submit" class="cadastrar-btn">Cadastrar</button>
+        </form>
+    </section>
+
+    <section class="menu-lista">
+        <h3>LISTA DE ALUNOS</h3>
+        <div class="output-alunos">
+
+        </div>
+    </section>
+    <footer class="rodape">Trabalho por <b>Maria Eduarda Cubero</b> e <b>Giulia Faccioli</b></footer>
+    <script type="module" src="../backend/cadastro.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+:root { 
+    --primary-color: #6d005b;
+    --primary-color-darker: #6d005b;
+}
+
+.cadastrar-btn:hover {
+    background-color: var(--primary-color-darker);
+}
+
+.del-div, .edit-div {
+    padding-top: 13px;
+}
+
+.edit {
+    color: #fff;
+    border: solid black;
+    height: 25px;
+    background-color: rgb(1, 138, 131);
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.del {
+    color: #fff;
+    border: solid black;
+    height: 25px;
+    background-color: red;
+    padding-top: 2px;
+}
+
+.div-voltar {
+    text-align: left;
+}
+
+.voltar-btn {
+    background-color: #7E0000;
+    width: 50px;
+    min-width: 50px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.voltar-btn:hover{
+    background-color: #7e0000a0;
+} 
+
+span {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rodape {
+    color: #fff;
+}

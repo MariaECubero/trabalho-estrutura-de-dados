@@ -1,0 +1,47 @@
+:root {
+    --primary-color:#6d005b;
+    --primary-color-darker: #6d005b;
+}
+
+.cad-aluno-btn {
+    background-color: var(--primary-color);
+    width: 400px;
+}
+
+.sair-btn {
+    background-color: #B20000;
+    min-width: 130px;
+}
+
+.gerar-rel-btn {    
+    background-color: #0ade1b;
+}
+
+.cadastrar-btn:hover{
+    background: var(--primary-color-darker);
+}
+
+.gerar-rel-btn:hover{
+    background-color: #1a6e03;
+}
+
+.sair-btn:hover{
+    background-color: #7E0000;
+}
+
+.div-limpar{
+    text-align: left;
+}
+
+.limpar-btn{
+    background-color: #7E0000;
+    min-width: 80px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.limpar-btn:hover{
+    background-color: #7e0000a0;
+}
+.rodape {
+    color: #fff;
+}

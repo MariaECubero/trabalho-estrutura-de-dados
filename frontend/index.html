@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Administrativo Estudantil</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <link href="./style/index.css" rel="stylesheet">
+<body>
+    <a href="./index.html" class="back-to-index"> <h1> Gerenciador de Alunos Simples (GAS)</h1> </a>
+    <section class="menu">
+        <div class="div-limpar">  <button class="limpar-btn">Limpar lista</button> </div>
+        <h3>Entre com uma das opções abaixo:</h3>
+            <button class="cadastrar-btn">Cadastrar aluno</button><br><br>
+            
+            <label for="tipo-rel">Gerar relatório:</label>
+            <select class="tipo-rel"> 
+                <option value="rel-nome">Ordem crescente - Nome</option> 
+                <option value="rel-ra">Ordem decrescente - RA</option> 
+                <option value="rel-aprovados">Ordem crescente - Nome (Apenas aprovados)</option> 
+            </select>
+            <button class="gerar-rel-btn">Gerar</button>
+            <br><br>
+    </section>
+    <div class="res">
+        
+    </div>
+    <script type="module" src="../index.mjs"></script>
+    <script type="module" src="../relatorio.mjs"></script>
+
+    <footer class="rodape">Trabalho por <b>Maria Eduarda Cubero</b> e <b>Giulia Faccioli</b></footer>
+</body>
+</html>
